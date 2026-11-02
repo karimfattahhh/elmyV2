@@ -380,7 +380,8 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:700;color:inherit;letter-spacin
 /* attention cursor (enabled via body.fx on fine pointers) */
 #curDot,#curRing{display:none}
 body.fx #curDot,body.fx #curRing{display:block}
-body.fx,body.fx a,body.fx button,body.fx .shot,body.fx .chip,body.fx label{cursor:none}
+body.fx{cursor:auto}
+body.fx a,body.fx button,body.fx .shot,body.fx .chip,body.fx label{cursor:pointer}
 body.fx input,body.fx textarea{cursor:text}
 #curDot{position:fixed;top:0;left:0;width:7px;height:7px;border-radius:50%;background:var(--accent-bright);z-index:2001;pointer-events:none;transform:translate(-50%,-50%);transition:width .2s var(--ease),height .2s var(--ease),opacity .3s}
 #curRing{position:fixed;top:0;left:0;width:38px;height:38px;border-radius:50%;border:1.5px solid rgba(63,91,255,.55);z-index:2000;pointer-events:none;transform:translate(-50%,-50%);transition:width .28s var(--ease),height .28s var(--ease),border-color .28s,background-color .28s,opacity .3s}
@@ -1825,7 +1826,7 @@ body{color:var(--ink)}
         <p class="hero-sub">Elmy provides academic resources, assessment insights and education projects for institutions. Academic expertise informs the scope; technology supports delivery and reporting.</p>
         <div class="hero-cta">
           <a class="btn btn-primary btn-lg" href="#systems">Explore solutions<svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
-          <a class="btn btn-ghost-d btn-lg" id="watch-demo" href="#platform">View platform overview ↘</a>
+          <a class="btn btn-ghost-d btn-lg" id="watch-demo" href="#platform">Explore Elmy ↘</a>
         </div>
       </div>
     <p class="institution-audience">For schools, universities, education providers, public authorities and nonprofit organizations.</p></div>
