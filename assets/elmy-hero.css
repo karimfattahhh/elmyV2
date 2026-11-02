@@ -48,3 +48,10 @@
 .hero-editorial.hero-motion-paused .hero-color-flow:before,.hero-editorial.hero-motion-paused .hero-color-flow:after{animation-play-state:paused}
 @media(max-width:600px){.hero-editorial .hero-color-flow i:nth-child(3){left:-15%;top:0;width:130%;height:100%;opacity:.7}}
 @media(prefers-reduced-motion:reduce){.hero-editorial .hero-color-flow:before,.hero-editorial .hero-color-flow:after{animation:none;will-change:auto}}
+
+/* Balanced hero actions, with consistent touch targets. */
+.hero-editorial .hero-cta{display:flex;justify-content:center;align-items:stretch;gap:14px}
+.hero-editorial .hero-cta .btn{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;width:200px;min-height:52px;padding:14px 22px;font-size:14px;line-height:22px;gap:12px;white-space:nowrap;border-radius:999px}
+.hero-editorial .hero-cta .btn svg{width:18px;height:18px;flex:0 0 18px;margin:0}
+@media(max-width:600px){.hero-editorial .hero-cta{gap:10px;flex-wrap:wrap}.hero-editorial .hero-cta .btn{width:180px;min-height:50px;padding:13px 18px;font-size:13px}}
+@media(max-width:420px){.hero-editorial .hero-cta{flex-direction:column;align-items:center}.hero-editorial .hero-cta .btn{width:min(100%,280px)}}
