@@ -1,0 +1,70 @@
+@import url('elmy-typography.css');
+/* Shared finishing rules. Keep page-specific visual identities intact. */
+:root{--elmy-nav-offset:120px;--elmy-tap-size:44px}
+html{scroll-padding-top:0;scroll-padding-bottom:90px}
+body{font-kerning:normal;-webkit-text-size-adjust:100%}
+main :is(h1,h2,h3){overflow-wrap:break-word}
+main :is(p,li){overflow-wrap:break-word}
+:where(a,button,input,select,textarea,summary):focus-visible{outline:2px solid #4760ea;outline-offset:4px}
+:where(button,a,input,select,textarea){-webkit-tap-highlight-color:transparent}
+:where(.ab-button,.ll-button,.rr-button,.pp-button,.copy-button,.fx-cta,.story-closing>a){min-height:48px;line-height:1.4;box-sizing:border-box}
+:where(.ab-button,.ll-button,.rr-button,.pp-button,.copy-button) span[aria-hidden]{flex-shrink:0}
+:where(.ll-tour-tabs button,.pl-filters button,.explorer-controls button){min-height:44px}
+:where(.es-close,.elmy-tools a,.elmy-tools button){min-width:44px;min-height:44px}
+.mobile-menu{max-height:calc(100dvh - 115px);overflow-y:auto;overscroll-behavior:contain}
+.mobile-menu a{min-height:44px;box-sizing:border-box}
+.pl-table-scroll{overscroll-behavior-x:contain}
+.pp-brand-directory a{min-height:34px}
+.elmy-tools[hidden]{display:none!important}
+@media(hover:none){.elmy-tools span{display:none}.pp-screen,.pp-prepme .pp-screen{transform:none}}
+@media(max-width:900px){
+ :root{--elmy-nav-offset:104px}
+ .elmy-tools{top:auto;bottom:max(14px,env(safe-area-inset-bottom));right:14px;transform:none;flex-direction:row;padding:6px;border-radius:22px}
+ .elmy-tools span{display:none}
+ .footer{padding-bottom:calc(82px + env(safe-area-inset-bottom))!important}
+ main :is(a,button,summary,input,select,textarea){scroll-margin-bottom:100px}
+ .explorer-controls button{min-width:44px}
+ .pp-brand-directory>.pp-wrap{scrollbar-width:thin}
+}
+@media(max-width:600px){
+ :where(.ab-button,.ll-button,.rr-button,.pp-button,.copy-button,.fx-cta,.story-closing>a){font-size:14px;min-height:48px}
+ :where(.ab-label,.rr-label,.ll-label,.pp-label,.story-kicker){font-size:10px;line-height:1.6}
+ .contact-panel :is(input,select,textarea){font-size:16px}
+ .explorer-controls{position:static;justify-content:flex-start;margin-top:10px}
+ .explorer-note{max-width:100%;font-size:9px;min-height:0;margin-top:8px}
+ .explorer-step{scroll-margin-top:460px}
+ .pl-table-scroll{overflow:visible}
+ .pl-table-scroll table{min-width:0!important;width:100%;table-layout:fixed}
+ .pl-table-scroll th,.pl-table-scroll td{padding:13px 8px!important;font-size:12px!important;line-height:1.5;overflow-wrap:anywhere}
+ .pl-table-scroll th:first-child{width:37%!important}
+ .pl-table-scroll thead th{font-size:11px!important;vertical-align:top}
+ .pl-table-scroll thead small{display:block;font-size:9px;line-height:1.4;margin-top:4px}
+ .pl-filters button{font-size:12px!important;padding:11px 14px!important}
+ .story-facts p{font-size:14px}
+ .story-aside nav a{min-height:44px;align-items:center}
+ .pp-brand-directory a{min-height:40px}
+ .pp-screen-caption{flex-direction:column;font-size:10px}
+ .pp-screen-caption b{font-size:11px}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto!important}
+ *,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+ .ab-motion .ab-reveal,.rr-motion .rr-reveal,.pp-motion .pp-reveal{opacity:1!important;transform:none!important}
+}
+@media(max-width:600px){
+ .pl-table-scroll table,.pl-table-scroll tbody{display:block}
+ .pl-table-scroll thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+ .pl-table-scroll tbody tr{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-bottom:1px solid #dce3f0;padding:14px 12px;background:#fff}
+ .pl-table-scroll tbody th[scope=row]{grid-column:1/-1;width:auto!important;display:block;padding:0 0 12px!important;border:0;font-size:14px!important;line-height:1.5;color:#17284a}
+ .pl-table-scroll td{display:block;border:0!important;padding:10px 7px!important;overflow-wrap:normal;font-size:12px!important;line-height:1.5}
+ .pl-table-scroll td:before{content:attr(data-plan);display:block;font-size:10px;font-weight:600;color:#536584;margin-bottom:8px}
+ .pl-table-scroll td:nth-child(3){background:#edf7ea;border-radius:6px}
+}
+@media(max-width:600px){.pl-table-scroll tbody td{width:auto!important;max-width:none!important}.pl-table-scroll td:before{white-space:normal}}
+/* White-entry pages stay legible before their scripts initialize. */
+:is(.contact-page,.partners-page,.story-page) .nav :is(.brand-name,.nav-trig){color:#14213e}
+:is(.contact-page,.partners-page,.story-page) .nav :is(.brand-mark,.nav-burger svg){color:#2444e2}
+@media(max-width:900px){.nav-burger{min-width:44px;min-height:44px}}
+@media(min-width:761px) and (max-width:1000px){.rr-hero-grid{gap:35px}.rr-art{transform:scale(.88);transform-origin:center right}}
+
+.fx-policy-links{display:flex;flex-wrap:wrap;gap:8px 22px;width:100%;margin-bottom:16px}.fx-policy-links a{display:inline-flex;align-items:center;min-height:44px;color:inherit;font:500 12px var(--font-sans);text-decoration:none}.fx-policy-links a:hover{text-decoration:underline}.fx-policy-links a:focus-visible{outline:2px solid #a7df98;outline-offset:4px}

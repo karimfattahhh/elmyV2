@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;600&display=swap');
+:root{
+ --font-sans:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+ --font-label:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+ --font-editorial:Georgia,'Times New Roman',serif;
+ --sans:var(--font-sans);--mono:var(--font-label);
+ --type-section:clamp(34px,4.2vw,54px);
+ --type-subheading:clamp(23px,2.2vw,28px);
+ --type-body:17px;--type-lead:clamp(17px,1.5vw,19px);
+}
+body{font-family:var(--font-sans)}
+button,input,select,textarea{font-family:var(--font-sans)}
+/* Shared hierarchy, with editorial and display treatments explicitly separate. */
+:is(.about-page,.learn-page,.resources-page,.partners-page) h2{font-weight:600}
+:is(.sec-head,.rr-section,.ll-section,.ab-section) h2{font-size:var(--type-section);line-height:1.12;letter-spacing:-.04em}
+:is(.rr-lead,.ll-lead,.story-deck,.contact-intro>p){font-size:var(--type-lead);line-height:1.7}
+:is(.rr-section,.ll-section) h3{font-weight:600}
+:is(.ab-button,.ll-button,.rr-button,.pp-button,.copy-button,.story-closing>a){font-family:var(--font-sans);font-weight:600}
+.story-page :is(.story-hero h1,.story-prose h2,.explorer-heading h2,.explorer-step h3,.related-heading h2,.related-card h3){font-family:var(--font-editorial);font-weight:400}
+.story-page :is(.story-deck,.story-prose p){font-family:var(--font-sans)}
+.story-page .story-takeaway p{font-family:var(--font-editorial)}
+:is(.elmy-search,.elmy-search h2,.elmy-search input,.elmy-tools span,.contact-path b,#contact-submit){font-family:var(--font-sans)}
+:is(.contact-panel h2,.contact-panel h3,.elmy-search h2){font-weight:600;letter-spacing:-.03em}
+:is(.story-kicker,.story-meta,.story-facts>div>span,.contact-eyebrow,.es-kicker){font-family:var(--font-label);font-weight:400}
+@media(max-width:600px){
+ :root{--type-section:34px;--type-body:16px;--type-lead:17px}
+ :is(.sec-head,.rr-section,.ll-section,.ab-section) h2{line-height:1.15;letter-spacing:-.035em}
+}
+:is(.about-page,.learn-page,.resources-page,.contact-page) h1{font-weight:600}
+:is(.ll-flow p,.ll-tour-tabs p,.ab-ecosystem-brands p,.ab-metrics p){font-size:15px;line-height:1.7}
+.pl-fit{font-size:14px!important;line-height:1.7}
+:is(.ab-button,.ll-button,.rr-button,.pp-button,.copy-button,.pl-panels .rr-button,.pl-resource-grid details .rr-button){font-size:14px}
+/* Product subheadings share one weight; editorial serif subheadings stay regular. */
+:is(.about-page,.learn-page,.resources-page,.partners-page,.contact-page) h3{font-weight:600}

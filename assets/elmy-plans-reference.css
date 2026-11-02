@@ -1,0 +1,24 @@
+/* Deployed Plans visual treatment, adapted to the approved solution hierarchy. */
+.plans-reference-design .pl-offer h3{font-size:48px!important;line-height:1.1!important;min-height:0!important;margin:32px 0 12px!important;color:inherit}
+.plans-reference-design .pl-offer{padding:30px 26px 25px;background:#2e43d9;color:#fff}
+.plans-reference-design .offer-1{background:#aedb9d;color:#153b28}
+.plans-reference-design .offer-2{background:#55438e;color:#fff}
+.plans-reference-design .pl-offer-top{font-size:11px;line-height:1.6;opacity:1;gap:12px}
+.plans-reference-design .pl-offer .pl-offer-tag{font-size:18px;line-height:1.5;min-height:54px!important;margin-bottom:20px}
+.plans-reference-design .pl-offer .pl-offer-description{font-size:15px;line-height:1.7;min-height:145px!important;opacity:1;margin-bottom:26px}
+.plans-reference-design .pl-offer .pl-offer-cta{margin-top:0;min-height:50px;font-size:15px}
+.plans-reference-design .pl-offer-includes{flex:1;margin-top:25px;padding-top:22px}
+.plans-reference-design .pl-offer-includes>span{font-size:11px;opacity:1}
+.plans-reference-design .pl-offer-includes li{font-size:15px;line-height:1.6;min-height:24px}
+.plans-reference-design .pl-offer .pl-offer-foot{font-size:12px;opacity:1;margin-top:24px}
+.plans-reference-design .pl-selection-head h2{max-width:none;font-size:clamp(32px,3.3vw,44px)!important}
+.plans-reference-design .pl-selection-head>p{font-size:15px;color:#52617b}
+.plans-reference-design .pl-selection-note{font-size:14px!important;color:#52617b!important}
+.plans-reference-design .pl-new-hero h1{margin-inline:auto;max-width:20ch}
+.plans-reference-design .pl-new-hero .rr-lead{max-width:62ch}
+.plans-reference-design .plans-scope-note{border:1px solid #dce4ef;background:#fafbfe;border-radius:20px;padding:28px 32px;display:grid;grid-template-columns:1fr auto;gap:12px 30px;align-items:center}
+.plans-scope-note .rr-label{grid-column:1/-1}.plans-scope-note p{font-size:16px;line-height:1.7;color:#52617b;margin:0;max-width:70ch}
+.plans-reference-design .pl-resource-grid p{font-size:16px;line-height:1.7;margin-bottom:24px;color:#52617b}
+.plans-reference-design .pl-institutional .rr-wrap{gap:60px}.plans-reference-design .pl-path>span{font-size:12px}.plans-reference-design .pl-path{gap:12px}.plans-reference-design .pl-path i{font-size:22px}
+@media(min-width:761px) and (max-width:1000px){.plans-reference-design .offer-2{display:flex}.plans-reference-design .offer-2 .pl-offer-description{min-height:0!important}.plans-reference-design .offer-2 .pl-offer-tag{min-height:0!important}}
+@media(max-width:760px){.plans-reference-design .pl-offer{padding:28px}.plans-reference-design .pl-offer h3{font-size:46px!important}.plans-reference-design .pl-offer .pl-offer-description,.plans-reference-design .pl-offer .pl-offer-tag{min-height:0!important}.plans-reference-design .plans-scope-note{grid-template-columns:1fr;padding:24px}.plans-reference-design .pl-institutional .rr-wrap{gap:32px}.plans-reference-design .pl-selection-head>p{max-width:none}.plans-reference-design .pl-offer-cta{width:100%;box-sizing:border-box}}

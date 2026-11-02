@@ -1,0 +1,28 @@
+/* Founder perspective: editorial layout, scoped to About. */
+.founder-statement{background:#f7f9fc;padding:100px 0}
+.founder-heading{margin-bottom:40px}
+.founder-heading .ab-label{margin-bottom:22px}
+.institutional-refinement .founder-statement h2{font-size:clamp(34px,4.2vw,58px);max-width:24ch;line-height:1.12;letter-spacing:-.04em}
+.founder-panel{display:grid;grid-template-columns:minmax(220px,.75fr) minmax(0,1.65fr);border:1px solid #dfe5ef;border-radius:24px;overflow:hidden;background:#fff;box-shadow:0 20px 55px #121d4a06}
+.founder-attribution{padding:42px 34px;display:flex;flex-direction:column;justify-content:space-between;gap:62px;background:radial-gradient(ellipse at 0 100%,#287b6a35,transparent 75%),linear-gradient(145deg,#1a2459,#101936);color:#fff}
+.founder-role,.founder-index{font:500 10px/1.6 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:#bbc7e5}
+.founder-rule{display:block;width:38px;height:3px;background:#88d899;margin-bottom:24px}
+.founder-attribution strong{display:block;font-size:24px;font-weight:550;letter-spacing:-.025em;margin-bottom:10px}
+.about-page .founder-attribution p{color:#c0cce4;font-size:14px;line-height:1.7}
+.founder-index{font-size:9px;color:#96b3bc}
+.founder-message{padding:44px 48px}
+.about-page .founder-message p{font-size:16px;line-height:1.8;color:#536078}
+.about-page .founder-message p+p{margin-top:22px}
+.about-page .founder-message .founder-lead{font-size:23px;line-height:1.55;color:#172344;font-weight:450;letter-spacing:-.02em}
+.founder-principles{display:flex;flex-wrap:wrap;gap:12px 22px;margin-top:32px;padding-top:23px;border-top:1px solid #e0e6ef}
+.founder-principles span{font-size:12px;font-weight:550;color:#344d46;display:flex;align-items:center;gap:8px}
+.founder-principles span:before{content:'';width:5px;height:5px;background:#58aa6a;border-radius:50%}
+@media(max-width:800px){.founder-statement{padding:70px 0}.founder-panel{grid-template-columns:1fr}.founder-attribution{padding:28px;gap:26px}.founder-index{display:none}.founder-rule{margin-bottom:16px}.founder-message{padding:30px 28px}.about-page .founder-message .founder-lead{font-size:21px}}
+@media(max-width:480px){.founder-statement .ab-wrap{width:calc(100% - 36px)}.founder-panel{border-radius:18px}.founder-heading{margin-bottom:28px}.founder-message{padding:26px 22px}.about-page .founder-message p{font-size:15px}.about-page .founder-message .founder-lead{font-size:20px}.founder-principles{flex-direction:column}}
+
+/* About closing action: consistent label/icon alignment and touch target. */
+.about-page .ab-close .ab-contact-cta{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-width:215px;min-height:54px;padding:16px 26px;border-radius:999px;color:#fff;background:#3049e8;border:1px solid #5269ff;text-decoration:none;white-space:nowrap;font-weight:600}
+.ab-contact-cta svg{display:block;flex:0 0 18px;transition:transform .2s ease}
+.about-page .ab-close .ab-contact-cta:hover{background:#405af9}
+.ab-contact-cta:hover svg{transform:translateX(3px)}
+@media(prefers-reduced-motion:reduce){.ab-contact-cta svg{transition:none}.ab-contact-cta:hover svg{transform:none}}

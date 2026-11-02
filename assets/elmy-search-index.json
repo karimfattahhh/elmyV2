@@ -1,0 +1,359 @@
+[
+  {
+    "file": "index.html",
+    "title": "Home",
+    "sections": [
+      {
+        "id": "systems",
+        "label": "Solution areas",
+        "keywords": "resources insights benchmarking projects"
+      },
+      {
+        "id": "model",
+        "label": "Delivery approach",
+        "keywords": "understand assess design deliver review"
+      },
+      {
+        "id": "platform",
+        "label": "Platform overview",
+        "keywords": "video demonstration technology"
+      }
+    ]
+  },
+  {
+    "file": "about.html",
+    "title": "About Elmy",
+    "sections": [
+      {
+        "id": "origin",
+        "label": "Education experience",
+        "keywords": "education experience story"
+      },
+      {
+        "id": "philosophy",
+        "label": "Delivery principles",
+        "keywords": "beliefs approach"
+      },
+      {
+        "id": "ecosystem",
+        "label": "Our ecosystem",
+        "keywords": "brands testprep prepme taleb"
+      }
+    ]
+  },
+  {
+    "file": "learn.html",
+    "title": "Technology",
+    "sections": [
+      {
+        "id": "capabilities",
+        "label": "Platform capabilities",
+        "keywords": "workflow tour assessment reporting courses"
+      },
+      {
+        "id": "implementation",
+        "label": "Implementation",
+        "keywords": "setup onboarding deployment"
+      },
+      {
+        "id": "plans",
+        "label": "Resources and guidance",
+        "keywords": "access insight impact"
+      }
+    ]
+  },
+  {
+    "file": "resources.html",
+    "title": "Learning Resources & Insights",
+    "sections": [
+      {
+        "id": "tiers",
+        "label": "Support levels",
+        "keywords": "access insight impact"
+      },
+      {
+        "id": "capabilities",
+        "label": "Available resources",
+        "keywords": "content curriculum"
+      },
+      {
+        "id": "academic-support",
+        "label": "Academic support",
+        "keywords": "expert review interpretation impact"
+      }
+    ]
+  },
+  {
+    "file": "institutional.html",
+    "title": "Education Projects",
+    "sections": [
+      {
+        "id": "solutions",
+        "label": "Institutional solutions",
+        "keywords": "programs assessment"
+      },
+      {
+        "id": "process",
+        "label": "Delivery process",
+        "keywords": "implementation operations"
+      },
+      {
+        "id": "pilot",
+        "label": "Pilot programs",
+        "keywords": "trial partnership"
+      }
+    ]
+  },
+  {
+    "file": "partners.html",
+    "title": "Partners",
+    "sections": [
+      {
+        "id": "stories",
+        "label": "Ecosystem applications",
+        "keywords": "testprep prepme taleb"
+      },
+      {
+        "id": "case-studies",
+        "label": "Assessment at scale",
+        "keywords": "institutional case study"
+      },
+      {
+        "id": "foundation",
+        "label": "Partner with us",
+        "keywords": "foundation collaboration"
+      }
+    ]
+  },
+  {
+    "file": "plans.html",
+    "title": "Work with Elmy",
+    "sections": [
+      {
+        "id": "tiers",
+        "label": "Support levels",
+        "keywords": "access insight impact resources pricing"
+      },
+      {
+        "id": "benchmarking",
+        "label": "Benchmarking interest",
+        "keywords": "assessment validation development"
+      },
+      {
+        "id": "institutional",
+        "label": "Education projects",
+        "keywords": "scope delivery engagement"
+      }
+    ]
+  },
+  {
+    "file": "get-started.html",
+    "title": "Contact us",
+    "sections": [
+      {
+        "id": "resources",
+        "label": "Resources and insights",
+        "keywords": "resources and insights"
+      },
+      {
+        "id": "benchmarking",
+        "label": "Benchmarking interest",
+        "keywords": "benchmarking interest"
+      },
+      {
+        "id": "discovery",
+        "label": "Education projects",
+        "keywords": "education projects"
+      }
+    ]
+  },
+  {
+    "file": "stories/testprep.html",
+    "title": "TestPrep case study",
+    "sections": [
+      {
+        "id": "explore",
+        "label": "Learning journey",
+        "keywords": "diagnostics practice"
+      },
+      {
+        "id": "changed",
+        "label": "Elmy’s contribution",
+        "keywords": "solution"
+      },
+      {
+        "id": "today",
+        "label": "In practice",
+        "keywords": "implementation"
+      }
+    ]
+  },
+  {
+    "file": "stories/prepme.html",
+    "title": "PrepMe case study",
+    "sections": [
+      {
+        "id": "explore",
+        "label": "Learning signals",
+        "keywords": "visibility activity assessment"
+      },
+      {
+        "id": "changed",
+        "label": "Elmy’s contribution",
+        "keywords": "solution"
+      },
+      {
+        "id": "today",
+        "label": "In practice",
+        "keywords": "implementation"
+      }
+    ]
+  },
+  {
+    "file": "stories/taleb.html",
+    "title": "Taleb case study",
+    "sections": [
+      {
+        "id": "explore",
+        "label": "Academic model",
+        "keywords": "methodology"
+      },
+      {
+        "id": "changed",
+        "label": "Elmy’s contribution",
+        "keywords": "solution"
+      },
+      {
+        "id": "today",
+        "label": "In practice",
+        "keywords": "implementation"
+      }
+    ]
+  },
+  {
+    "file": "case-studies/assessment-at-scale.html",
+    "title": "Assessment at scale",
+    "sections": [
+      {
+        "id": "explore",
+        "label": "Assessment operations",
+        "keywords": "assessment logistics"
+      },
+      {
+        "id": "implementation",
+        "label": "Delivery preparation",
+        "keywords": "implementation"
+      },
+      {
+        "id": "impact",
+        "label": "Delivery observations",
+        "keywords": "outcomes"
+      }
+    ]
+  },
+  {
+    "file": "privacy.html",
+    "title": "Privacy Policy",
+    "sections": [
+      {
+        "id": "information",
+        "label": "Your information",
+        "keywords": "privacy personal data"
+      },
+      {
+        "id": "rights",
+        "label": "Your rights",
+        "keywords": "privacy access deletion"
+      },
+      {
+        "id": "retention",
+        "label": "Data retention",
+        "keywords": "privacy storage"
+      }
+    ]
+  },
+  {
+    "file": "terms.html",
+    "title": "Terms of Service",
+    "sections": [
+      {
+        "id": "use",
+        "label": "Website use",
+        "keywords": "terms conditions"
+      },
+      {
+        "id": "agreements",
+        "label": "Service agreements",
+        "keywords": "subscription contract"
+      },
+      {
+        "id": "law",
+        "label": "Governing law",
+        "keywords": "legal jurisdiction"
+      }
+    ]
+  },
+  {
+    "file": "cookies.html",
+    "title": "Cookie Policy",
+    "sections": [
+      {
+        "id": "inventory",
+        "label": "Cookie inventory",
+        "keywords": "cookies tracking storage"
+      },
+      {
+        "id": "choices",
+        "label": "Your choices",
+        "keywords": "consent preferences"
+      },
+      {
+        "id": "external",
+        "label": "External resources",
+        "keywords": "fonts video"
+      }
+    ]
+  },
+  {
+    "file": "accessibility.html",
+    "title": "Accessibility",
+    "sections": [
+      {
+        "id": "features",
+        "label": "Accessibility features",
+        "keywords": "keyboard navigation"
+      },
+      {
+        "id": "limits",
+        "label": "Known limitations",
+        "keywords": "accessibility review"
+      },
+      {
+        "id": "feedback",
+        "label": "Report a barrier",
+        "keywords": "accessibility help"
+      }
+    ]
+  },
+  {
+    "file": "benchmarking.html",
+    "title": "Institutional Benchmarking",
+    "sections": [
+      {
+        "id": "approach",
+        "label": "Our approach",
+        "keywords": "our approach"
+      },
+      {
+        "id": "development",
+        "label": "Development status",
+        "keywords": "development status"
+      },
+      {
+        "id": "interest",
+        "label": "Register interest",
+        "keywords": "register interest"
+      }
+    ]
+  }
+]

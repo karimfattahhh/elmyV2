@@ -1,0 +1,2 @@
+/* Keep ambient animation idle when the opening is off-screen or the tab is hidden. */
+(()=>{const hero=document.querySelector('.hero-editorial');if(!hero)return;let visible=true;const sync=()=>hero.classList.toggle('hero-motion-paused',!visible||document.hidden);if('IntersectionObserver' in window)new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;sync();}).observe(hero);document.addEventListener('visibilitychange',sync);sync();})();
