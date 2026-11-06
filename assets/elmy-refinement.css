@@ -126,3 +126,5 @@
 #systems .audit-solution:hover .solution-next>span{transform:translate(3px,-3px)}
 #systems .audit-solution:focus-visible{outline:3px solid #4255ff;outline-offset:5px}
 @media(prefers-reduced-motion:reduce){#systems .solution-next>span{transition:none;transform:none!important}}
+
+.audit-method .audit-text-link{color:#b8e8ca;margin-top:18px}.audit-method .audit-text-link:focus-visible{outline:2px solid #b8e8ca;outline-offset:5px}
