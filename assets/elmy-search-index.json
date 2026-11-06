@@ -341,18 +341,23 @@
     "sections": [
       {
         "id": "approach",
-        "label": "Our approach",
-        "keywords": "our approach"
+        "label": "Assessment Purpose",
+        "keywords": "skills subjects learner groups coverage scope"
       },
       {
-        "id": "development",
-        "label": "Development status",
-        "keywords": "development status"
+        "id": "reporting",
+        "label": "Reporting Perspectives",
+        "keywords": "learner educator institution evidence"
+      },
+      {
+        "id": "delivery",
+        "label": "How It Would Work",
+        "keywords": "delivery process academic support follow up"
       },
       {
         "id": "interest",
-        "label": "Register interest",
-        "keywords": "register interest"
+        "label": "Discuss Assessment Needs",
+        "keywords": "contact inquiry interest"
       }
     ]
   }
