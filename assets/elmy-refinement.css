@@ -119,3 +119,10 @@
 }
 
 @media(min-width:901px){#reporting .product-evidence{top:max(110px,calc(50svh - var(--report-height,540px)/2))}}
+
+/* Clear destinations within the existing fully clickable solution cards. */
+#systems .solution-next{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:20px;color:#273dad;font-size:14px;line-height:1.5;font-weight:600}
+#systems .solution-next>span{flex:none;transition:transform .2s}
+#systems .audit-solution:hover .solution-next>span{transform:translate(3px,-3px)}
+#systems .audit-solution:focus-visible{outline:3px solid #4255ff;outline-offset:5px}
+@media(prefers-reduced-motion:reduce){#systems .solution-next>span{transition:none;transform:none!important}}
