@@ -64,7 +64,7 @@ dialog.addEventListener('keydown',event=>{
 });
 rail.querySelectorAll('button')[0].onclick=open;rail.querySelectorAll('button')[1].onclick=()=>window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
 document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();dialog.open?dialog.close():open();}});
-fetch(new URL('assets/elmy-search-index.json?v=4',root)).then(r=>{if(!r.ok)throw Error('index');return r.json();}).then(data=>{
+fetch(new URL('assets/elmy-search-index.json?v=5',root)).then(r=>{if(!r.ok)throw Error('index');return r.json();}).then(data=>{
  pages=data;
  destinations=pages.flatMap(p=>[{file:p.file,title:p.title,label:p.title,id:'',page:true,keywords:''},...p.sections.map(s=>({...s,file:p.file,title:p.title,page:false}))])
   .map(e=>({...e,search:normalize(e.label+' '+e.title+' '+(e.keywords||''))}));

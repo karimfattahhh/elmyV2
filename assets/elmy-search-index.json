@@ -85,7 +85,7 @@
   },
   {
     "file": "institutional.html",
-    "title": "Education Projects",
+    "title": "Institutional Solutions",
     "sections": [
       {
         "id": "solutions",
@@ -136,12 +136,12 @@
       },
       {
         "id": "benchmarking",
-        "label": "Benchmarking interest",
+        "label": "Assessment & Insights",
         "keywords": "assessment validation development"
       },
       {
         "id": "institutional",
-        "label": "Education projects",
+        "label": "Institutional Solutions",
         "keywords": "scope delivery engagement"
       }
     ]
@@ -157,13 +157,13 @@
       },
       {
         "id": "benchmarking",
-        "label": "Benchmarking interest",
-        "keywords": "benchmarking interest"
+        "label": "Assessment & Insights",
+        "keywords": "assessment insights benchmarking interest"
       },
       {
         "id": "discovery",
-        "label": "Education projects",
-        "keywords": "education projects"
+        "label": "Institutional Solutions",
+        "keywords": "institutional solutions"
       }
     ]
   },
@@ -337,7 +337,7 @@
   },
   {
     "file": "benchmarking.html",
-    "title": "Institutional Benchmarking",
+    "title": "Institutional Assessment & Insights",
     "sections": [
       {
         "id": "approach",
